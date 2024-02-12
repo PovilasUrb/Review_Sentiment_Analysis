@@ -13,6 +13,16 @@ source venv/bin/activate
 
 pip install -r requirements.txt
 ```
+When everything has been setup, it should look like this:
+```
+.
+├── README.md
+├── requirements.txt
+├── SentimentAnalysis.ipynb
+├── test.csv
+├── train.csv
+└── venv
+```
 
 ## Step 3:
 
@@ -30,3 +40,5 @@ Alternatively, these commands are included in the notebook file and should downl
 ## Step 4:
 
 Run the notebook file, SentimentAnalysis.ipynb
+
+###When the notebook finish, you should be left with 2 joblib files, which you can use in other programs.
