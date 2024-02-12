@@ -20,7 +20,7 @@ The dataset consists of `polarity`, `title`, and `text` columns, where `polarity
 git clone https://github.com/PovilasUrb/Sentiment-Analysis.git
 ```
 
-2. **Download and extract the dataset** from [Kaggle](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews/data) into the project directory.
+2. **Download and extract the [dataset](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews/data)** from kaggle into the project directory.
 
 3. **Set up a virtual environment** and install the required dependencies:
 
