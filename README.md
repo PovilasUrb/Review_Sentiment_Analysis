@@ -1,19 +1,37 @@
-# Sentiment analysis using Amazon reviews
+Combining both parts into a cohesive README for your Sentiment Analysis project:
 
-## Step 1:
+---
 
-Download and extract the [dataset](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews/data) into the current directory.
+# Sentiment Analysis Project
 
-## Step 2:
+This project focuses on analyzing sentiments expressed in text data, specifically using Amazon reviews. The goal is to classify the sentiments as either positive or negative. The project demonstrates the process of reading, cleaning, preprocessing data, conducting exploratory data analysis (EDA), and training a machine learning model for sentiment classification.
 
-Setup virtual environment and install the required dependancies.
+## Dataset
+
+The dataset consists of `polarity`, `title`, and `text` columns, where `polarity` indicates the sentiment (1 for negative and 2 for positive sentiments). The dataset can be obtained from Kaggle. For efficiency, only 40,000 rows from both the train and test datasets are used.
+
+## Getting Started
+
+### Installation
+
+1. **Clone the repository** to your local machine:
+
+```bash
+git clone https://github.com/PovilasUrb/Sentiment-Analysis.git
 ```
+
+2. **Download and extract the dataset** from [Kaggle](https://www.kaggle.com/datasets/kritanjalijain/amazon-reviews/data) into the project directory.
+
+3. **Set up a virtual environment** and install the required dependencies:
+
+```bash
 python -m venv venv
 source venv/bin/activate
-
 pip install -r requirements.txt
 ```
-When everything has been setup, it should look like this:
+
+Your project directory should now look like this:
+
 ```
 .
 ├── README.md
@@ -24,21 +42,30 @@ When everything has been setup, it should look like this:
 └── venv
 ```
 
-## Step 3:
+4. **Download the required NLTK libraries** using the following Python commands:
 
-Download the required NLTK libraries using:
-
-```
+```python
 import nltk
-
 nltk.download('punkt')
 nltk.download('stopwords')
 ```
 
-Alternatively, these commands are included in the notebook file and should download on their own.
+Alternatively, these commands are included in the `SentimentAnalysis.ipynb` notebook and should execute automatically when you run it.
 
-## Step 4:
+### Running the Project
 
-Run the notebook file, SentimentAnalysis.ipynb
+Follow these steps to run the project:
 
-<sub> When the notebook finishes, you should be left with 2 joblib files, which you can use in other programs. </sub>
+1. **Activate your virtual environment** (if you haven't already):
+
+```bash
+source venv/bin/activate
+```
+
+2. **Run the `SentimentAnalysis.ipynb` notebook**:
+
+Open the notebook in Jupyter Notebook or JupyterLab and execute the cells. The notebook includes steps for data preprocessing, EDA, model training, and sentiment prediction.
+
+Upon completion, the notebook will output two `.joblib` files for the trained TF-IDF vectorizer and the LinearSVC classifier model. These can be used for sentiment prediction in other programs.
+
+---
