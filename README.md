@@ -16,7 +16,7 @@ pip install -r requirements.txt
 
 ## Step 3:
 
-Run the install the required NLTK libraries using:
+Download the required NLTK libraries using:
 
 ```
 import nltk
