@@ -41,4 +41,4 @@ Alternatively, these commands are included in the notebook file and should downl
 
 Run the notebook file, SentimentAnalysis.ipynb
 
-<sub> When the notebook finish, you should be left with 2 joblib files, which you can use in other programs. </sub>
+<sub> When the notebook finishes, you should be left with 2 joblib files, which you can use in other programs. </sub>
