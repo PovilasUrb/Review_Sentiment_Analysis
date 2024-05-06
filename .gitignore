@@ -1,4 +1,4 @@
-test.csv
-train.csv
 venv/
-Placeholder.py
+Amazon_Review_analysis/train.csv
+Amazon_Review_analysis/test.csv
+
