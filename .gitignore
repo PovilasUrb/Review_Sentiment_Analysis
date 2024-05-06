@@ -1,4 +1,5 @@
 venv/
 Amazon_Review_analysis/train.csv
 Amazon_Review_analysis/test.csv
-Yelp_Review_analysis/Yelp/
+Yelp_Review_analysis/Yelp/train.csv
+Yelp_Review_analysis/Yelp/test.csv
