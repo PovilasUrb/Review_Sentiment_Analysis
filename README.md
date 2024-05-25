@@ -1,5 +1,3 @@
-Combining both parts into a cohesive README for your Sentiment Analysis project:
-
 ---
 
 # Sentiment Analysis Project
